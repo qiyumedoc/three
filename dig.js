@@ -14,7 +14,3 @@ var data = {
     }
   }
 }
-
-dig(data, 'level2') // { level3: 'some data' }
-dig(data, 'level3') // 'some data'
-dig(data, 'level4') // undefined
